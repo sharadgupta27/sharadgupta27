@@ -11,6 +11,35 @@
   <img src="https://komarev.com/ghpvc/?username=sharadgupta27&style=flat-square&color=38BDF8&label=visitors"/>
 </p>
 
+<table>
+<tr>
+<td width="58%" valign="top">
+
+### 👋 Hi, I'm Sharad
+
+I'm a **remote sensing scientist** who writes software. I turn spectra, point clouds and radar echoes into maps that help people make decisions about **landslides, invasive species, forests, soils and wildfires**.
+
+I started in **computer science**, moved to **geoinformatics**, and did a **PhD on landslide susceptibility in the Himalaya** (IIT Mandi). I then worked as a scientist at the Punjab Remote Sensing Centre. After that I was a postdoctoral researcher at **Tel Aviv University**, in the School of Plant Sciences & Food Security and the Porter School of the Environment & Earth Sciences, where I mapped invasive plants. Until December 2025 I was a scientist at the **Helmholtz Centre for Environmental Research (UFZ)**, working on hyperspectral scaling and UAV/LiDAR forest monitoring.
+
+**Since 2026 I've been working independently.** I build open-source Earth-observation and AI tools, because **a method isn't finished until someone else can install it.**
+
+</td>
+<td width="42%" valign="top">
+
+### 🛰️ Building now
+
+- 🌍 [**RangeWatch**](https://github.com/sharadgupta27/RangeWatch): self-updating species distribution models
+- 🔥 [**EnMAP Wildfire Temperature**](https://github.com/sharadgupta27/EnMAP_Fire_Detection): sub-pixel fire temperature retrieval
+- 🌲 [**FSCT-Turbo**](https://github.com/sharadgupta27/FSCT-Turbo): tree inventories from LiDAR, 12.9× faster
+- 🧪 [**PARACUDA-NG**](https://github.com/sharadgupta27/paracuda-ng): spectral ML on PyPI, conda-forge and QGIS
+- 🤖 [**CiteSure**](https://github.com/sharadgupta27/CiteSure) and [**EvalOps**](https://github.com/sharadgupta27/EvalOps): trustworthy RAG and LLM testing
+
+**Ask me about:** hyperspectral pipelines · class imbalance in geo-ML · drone photogrammetry · getting science code into users' hands
+
+</td>
+</tr>
+</table>
+
 <img src="assets/journey.svg" width="100%" alt="Career timeline: B.Tech CSE (UPTU, 2007–2011), M.Tech Geoinformatics (NIT Bhopal, 2012–2014), PhD Remote Sensing (IIT Mandi, 2015–2020), Scientist at Punjab Remote Sensing Centre (2020–2022), Postdoctoral Researcher at Tel Aviv University, School of Plant Sciences and Food Security and Porter School of the Environment and Earth Sciences (2022–2023), Scientist at UFZ Leipzig (2023–2025), Independent (2026–now)"/>
 
 <img src="assets/map.svg" width="100%" alt="World map of study areas from the USA to the Himalaya, with a zoomed inset of South Asia and a Mars inset for DeepMARS"/>
@@ -21,6 +50,83 @@
 <tr>
 <td width="50%"><a href="https://github.com/sharadgupta27/paracuda-ng"><img src="assets/paracuda.svg" width="100%" alt="PARACUDA-NG: 7-step wizard and spectral preprocessing"/></a></td>
 <td width="50%" valign="top">
+
+### 🧪 PARACUDA-NG
+**Spectral data → validated ML models, without writing code.**
+
+A 7-step wizard (Data → Configure → Preprocess → Model → Validate → Execute → Apply) for spectroscopy and remote sensing. It handles continuum removal and derivatives, **7 band-resampling methods** to match any sensor, and multi-property runs. A companion QGIS plugin applies the models to image cubes.
+
+[![Code](https://img.shields.io/badge/📦_Code-paracuda--ng-181717?style=for-the-badge&logo=github)](https://github.com/sharadgupta27/paracuda-ng)
+[![QGIS](https://img.shields.io/badge/📦_Code-paracuda--qgis-589632?style=for-the-badge&logo=qgis&logoColor=white)](https://github.com/sharadgupta27/paracuda-qgis)
+
+[![PyPI](https://img.shields.io/pypi/v/paracuda-ng.svg?style=flat-square&color=0073b7&label=pypi)](https://pypi.org/project/paracuda-ng/)
+[![Downloads](https://img.shields.io/pepy/dt/paracuda-ng?style=flat-square&label=downloads&color=1f9d55)](https://pepy.tech/project/paracuda-ng)
+[![conda-forge](https://img.shields.io/conda/vn/conda-forge/paracuda-ng.svg?style=flat-square&color=fb8c00&label=conda-forge)](https://anaconda.org/conda-forge/paracuda-ng)
+[![Docs](https://img.shields.io/badge/docs-online-brightgreen?style=flat-square)](https://paracuda-ng.github.io/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔥 EnMAP Wildfire Temperature
+**How hot is the fire inside a 30 m pixel?**
+
+It finds active fire with a scene-wide GLRT detector (calibrated false-alarm rate). It then retrieves **sub-pixel temperature, fire fraction and FRP** by profile-likelihood inversion, with **95% confidence intervals**. The published Dozier, Dennison and Amici methods run alongside for comparison. Results are cross-checked against Landsat, ECOSTRESS, VIIRS and SLSTR, and every run ends with a PDF report.
+
+<sub>▶ Fire pixels in an EnMAP scene of the Arganil fire, Portugal (19 Aug 2025)</sub>
+
+[![Code](https://img.shields.io/badge/📦_Code-EnMAP__Fire__Detection-181717?style=for-the-badge&logo=github)](https://github.com/sharadgupta27/EnMAP_Fire_Detection)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![EnMAP](https://img.shields.io/badge/EnMAP-L1B%2FL1C-0073b7?style=flat-square)
+![Hyperspectral](https://img.shields.io/badge/hyperspectral-SWIR-DC2626?style=flat-square)
+
+</td>
+<td width="50%"><a href="https://github.com/sharadgupta27/EnMAP_Fire_Detection"><img src="https://raw.githubusercontent.com/sharadgupta27/EnMAP_Fire_Detection/main/docs/figures/scene_overview.png" width="100%" alt="EnMAP scene with detected fire pixels"/></a><br/><a href="https://github.com/sharadgupta27/EnMAP_Fire_Detection"><img src="https://raw.githubusercontent.com/sharadgupta27/EnMAP_Fire_Detection/main/docs/figures/spectral_fit.png" width="100%" alt="Planck-mixture spectral fit"/></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/sharadgupta27/FSCT-Turbo"><img src="https://raw.githubusercontent.com/sharadgupta27/FSCT-Turbo/main/readme_images/example_overview.png" width="100%" alt="FSCT-Turbo: point cloud, segmentation, stems and trees"/></a><br/><a href="https://github.com/sharadgupta27/FSCT-Turbo"><img src="https://raw.githubusercontent.com/sharadgupta27/FSCT-Turbo/main/readme_images/stage_times.png" width="100%" alt="FSCT-Turbo stage run times"/></a></td>
+<td width="50%" valign="top">
+
+### 🌲 FSCT-Turbo
+**Forest point clouds → tree inventories, 12.9× faster.**
+
+A reproducible, sped-up build of the Forest Structural Complexity Tool. It segments terrain, stems and vegetation, fits stem circles, and reports **DBH and height per tree**. It comes as a desktop app, browser UI, CLI and a one-click Windows installer.
+
+| | Original FSCT | **FSCT-Turbo** |
+|:--|--:|--:|
+| End-to-end | 529 s | **40.9 s** |
+| Measurement | 498 s | **17.1 s** |
+
+[![Code](https://img.shields.io/badge/📦_Code-FSCT--Turbo-181717?style=for-the-badge&logo=github)](https://github.com/sharadgupta27/FSCT-Turbo)
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![LiDAR](https://img.shields.io/badge/LiDAR-point_clouds-2EA043?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🌍 RangeWatch
+**Species distribution models that keep themselves up to date.**
+
+It ingests GBIF and iNaturalist records incrementally and trains MaxEnt on versioned WorldClim stacks with spatial block CV. It projects suitability, MESS, range zones and a severity index as map tiles and PDF bulletins. A model **retrains only when new evidence warrants it**, and every version is tracked in MLflow.
+
+<sub>▶ Below: global zones for *Heterotheca subaxillaris*, the invader from my IEEE JSTARS paper</sub>
+
+[![Code](https://img.shields.io/badge/📦_Code-RangeWatch-181717?style=for-the-badge&logo=github)](https://github.com/sharadgupta27/RangeWatch)
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![PostGIS](https://img.shields.io/badge/PostGIS-336791?style=flat-square&logo=postgresql&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+
+</td>
+<td width="50%"><a href="https://github.com/sharadgupta27/RangeWatch"><img src="https://raw.githubusercontent.com/sharadgupta27/RangeWatch/main/docs/images/02-species-maps.webp" width="100%" alt="RangeWatch species maps"/></a><br/><a href="https://github.com/sharadgupta27/RangeWatch"><img src="https://raw.githubusercontent.com/sharadgupta27/RangeWatch/main/docs/images/zones-heterotheca-subaxillaris.webp" width="100%" alt="Range zones for Heterotheca subaxillaris"/></a></td>
+</tr>
+</table>
 
 ### 🤖 AI & Data Engineering
 
@@ -62,6 +168,20 @@ Code and data behind my journal papers, so the results can be reproduced.
 <tr>
 <td width="34%" valign="top"><a href="https://github.com/sharadgupta27/MultiscaleHeterotheca"><img src="https://raw.githubusercontent.com/sharadgupta27/MultiscaleHeterotheca/main/2_Vision_Image_Classification/Outputs/Stats/ConfusionMatrix_13Bands_Model_RF_HPT_newTrainedF.png" width="100%"/></a></td>
 <td valign="top">
+
+| Paper | Code |
+|:--|:--|
+| 🟢 *Unveiling the Invasion: mapping Heterotheca subaxillaris with drones and satellites* (IEEE JSTARS, 2024, IF 6.3) | [`MultiscaleHeterotheca`](https://github.com/sharadgupta27/MultiscaleHeterotheca) |
+| 🟡 *Smartphone-based spectroscopy to estimate soil attributes for citizen science* (Smart Agric. Technol., 2023, IF 7.1) | [`camera-spectroscopy`](https://github.com/sharadgupta27/camera-spectroscopy) |
+| 🟠 *Handling data imbalance in ML-based landslide susceptibility mapping* (Landslides, 2023, IF 7.4) | [`BalancedLSM`](https://github.com/sharadgupta27/BalancedLSM) |
+| 🔵 *Multi-layered land degradation monitoring and forecasting framework for drylands* (Land Degrad. Dev., 2023) | [`ML-LDT_Team-F`](https://github.com/sharadgupta27/ML-LDT_Team-F) |
+| 🟣 *Automated discontinuity detection in the Martian subsurface with deep learning* (Appl. Sci., 2020) | [`DeepMARS`](https://github.com/sharadgupta27/DeepMARS) |
+
+<sub>◀ Classifying <i>Heterotheca</i>, other vegetation and soil from Vision imagery (Random Forest)</sub>
+
+</td>
+</tr>
+</table>
 
 ## 📈 Research Impact
 
