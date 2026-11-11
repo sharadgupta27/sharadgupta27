@@ -1,5 +1,5 @@
 <a href="https://github.com/sharadgupta27">
-  <img src="assets/hero.svg" width="100%" alt="Sharad Kumar Gupta, PhD: remote sensing scientist, independent researcher and developer, Leipzig"/>
+  <img src="assets/hero.svg" width="100%" alt="Sharad Kumar Gupta, PhD: remote sensing scientist, independent researcher and developer, Hamburg"/>
 </a>
 
 <p align="center">
