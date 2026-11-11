@@ -290,14 +290,6 @@ Code and data behind my journal papers, so the results can be reproduced.
 ## 📊 On GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sharadgupta27&show_icons=true&hide_border=true&bg_color=0B1220&title_color=38BDF8&icon_color=EAB308&text_color=E6EDF3&include_all_commits=true&count_private=true&hide=contribs"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sharadgupta27&layout=compact&hide_border=true&bg_color=0B1220&title_color=38BDF8&text_color=E6EDF3&langs_count=6"/>
-</p>
-<p align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=sharadgupta27&bg_color=0B1220&color=8B9BB4&line=F97316&point=EAB308&area=true&area_color=F97316&hide_border=true&custom_title=Contributions%20over%20the%20last%2031%20days"/>
-</p>
-
-<p align="center">
   <b>Open to collaborations</b> on hyperspectral remote sensing, forest monitoring, natural hazards and open-source geospatial tools.<br/><br/>
   <a href="https://scholar.google.co.in/citations?user=OHWQMuIAAAAJ&hl=en"><img src="https://img.shields.io/badge/Read_my_papers-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
   <a href="https://orcid.org/0000-0003-3444-1333"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"/></a>
